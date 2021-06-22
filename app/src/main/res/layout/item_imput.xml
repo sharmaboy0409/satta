@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="wrap_content"
+    android:background="@drawable/loginbutton"
+    android:layout_marginRight="@dimen/activity_margin5_dp"
+    android:layout_marginLeft="@dimen/activity_margin5_dp"
+    android:padding="@dimen/activity_margin5_dp"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="13sp"
+        android:id="@+id/txtno"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:text="4"
+        android:textColor="@color/white"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="13sp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:id="@+id/txtimput"
+        android:text="@string/live"
+        android:padding="@dimen/activity_margin2_sp"
+        android:textColor="@color/white"/>
+
+
+</LinearLayout>
